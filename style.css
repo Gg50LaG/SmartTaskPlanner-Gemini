@@ -1,0 +1,19 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.card {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 
+                0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.dependency-line {
+    position: absolute;
+    left: -1rem;
+    width: 1rem;
+    border-left: 2px solid #6b7280;
+    border-bottom: 2px solid #6b7280;
+    border-radius: 0 0 0 8px;
+    pointer-events: none;
+}
