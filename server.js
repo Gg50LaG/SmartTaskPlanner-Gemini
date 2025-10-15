@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 // 1. Configuration (Recommended: Use an environment variable for the API Key)
 // You would replace 'YOUR_GEMINI_API_KEY' with your actual key, or better, 
 // use a .env file and process.env.GEMINI_API_KEY
-const apiKey = process.env.GEMINI_API_KEY || "AIzaSyDvDvQ6JNDzBqCnn5FgA-v5FuiHAeEE0WA"; // Placeholder from original file
+const apiKey = process.env.GEMINI_API_KEY || "MY_GEMINI_API_KEY"; // Placeholder from original file
 const ai = new GoogleGenAI({ apiKey });
 const modelName = "gemini-2.5-flash-preview-05-20";
 
@@ -90,4 +90,5 @@ app.post('/generate-plan', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
     console.log(`Open your browser to http://localhost:${port}/index.html`);
+
 });
