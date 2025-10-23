@@ -32,6 +32,8 @@ npm install express @google/genai
 
 ### 3. Set Gemini API Key
 
+### I did not give my Gemini API key in this github repo for security reasons.
+
 Linux/macOS:
 
 export GEMINI_API_KEY="YOUR_API_KEY"
